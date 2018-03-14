@@ -1,14 +1,118 @@
 body{
 
-font-size: 11pt;
+  background-color: #fff;
+  }
+
+#titre h1{
+padding: 100px;
 }
 
+  .char1{
+    color: #3f32fe;
+    font-size: 120px;
+   font-family: 'Rammetto One', cursive;
+  }
 
-#Bio{
-  background-color: #C5DCE5;
-  padding: 70px;
+  .char2{
+  color : #3f32fe;
+  font-size: 100px;
+  }
 
-}
+  .char3 {
+  color : #3f32fe;
+  font-family: 'Oswald', sans-serif;
+  font-size: 130px;
+  }
+
+  .char4 {
+    color: #3f32fe;
+    font-size: 110px;
+    font-family: 'Rammetto One', cursive;
+  }
+
+  .char5 {
+    color: #3f32fe;
+    font-size: 120px;
+  }
+
+  .char6{
+  color: #fff;
+  font-size: 100px;
+  font-family: 'Oswald', sans-serif;
+  }
+
+
+  .char7 {
+    color: #3f32fe;
+    font-size: 120px;
+    font-family: 'Rammetto One', cursive;
+  }
+
+  .char8 {
+    color: #3f32fe;
+    font-size: 120px;
+  }
+
+  .char9 {
+    color: #3f32fe;
+    font-size: 120px;
+   font-family: 'Rammetto One', cursive;
+  }
+
+  .char10 {
+    color : #3f32fe;
+    font-size: 100px;
+  }
+
+
+  .char11 {
+  color : #3f32fe;
+  font-family: 'Oswald', sans-serif;
+  font-size: 130px;
+  }
+
+  .char12 {
+    color: #3f32fe;
+    font-size: 110px;
+    font-family: 'Rammetto One', cursive;
+  }
+
+  .char13{
+  color: #3f32fe;
+  font-size: 80px;
+  font-family: 'Oswald', sans-serif;
+  }
+
+  .char14 {
+    color: #3f32fe;
+    font-size: 120px;
+  }
+
+  .char15{
+    color: #3f32fe;
+    font-size: 120px;
+   font-family: 'Rammetto One', cursive;
+  }
+
+  .char16{
+  color :#3f32fe;
+  font-size: 100px;
+  }
+
+  .char17 {
+  color : #3f32fe;
+  font-family: 'Oswald', sans-serif;
+  font-size: 130px;
+  }
+
+
+  .gallery {
+  justify-content: center;
+  align-items: center;
+
+  }
+
+
 
 .Clara p{
   font-family: 'Abril Fatface', cursive;
@@ -16,56 +120,69 @@ font-size: 11pt;
 
 
 
-
+h2{
+font-family: 'Poppins', sans-serif;
+font-size: 12pt;
+color: #ffff;
+margin-left: 90px;
+}
 
 p{
-  font-family: 'Abril Fatface', cursive;
+font-family: 'Poppins', sans-serif;
 }
 
 h1{
   font-family: 'Poppins', sans-serif;
   font-size: 20pt;
-  color: #CA7112;
+  color: #ffff;
+  text-align: center;
 }
 
-h2{
-font-family: 'Poppins', sans-serif;
-font-size: 12pt;
+
+#com h3 {
+  color: #F7D946;
 }
 
+}
 h3{
-font-size: 8pt ;
-}
-
-.Clara{
+font-size: 7pt;
+padding: 6px;
 }
 
 h2 {
-color: #000;
+color: #fff;
+}
+
+.des {
+text-align: left;
 }
 
 
 #comp{
-  background-color:#000;
-  padding: 70px;
+  background-color:#3f32fe;
+  padding: 20px;
 
 
-  color: #000;
+  color: #fff;
     display: flex;
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
-    min-height: 80vh;
+    min-height: 10vh;
+    margin-top: 200px;
 
 
 }
 
 #comp h1{
   padding-left: 1px;
-  padding-top: 150px;
+  padding-top: 300px;
   padding: 3px;
   margin : 12px;
+  color: #ffda10;
 }
+
+
 
 .sp img{
 
@@ -73,40 +190,36 @@ background-image: url(images/p1.jpg);
 background-repeat: no-repeat;
 background-position: left;
 margin: 12px;
-}
-
-.sp p {
-  color: #C5DCE5;
+color: #F7D946;
 }
 
 
 .des img{
-  background-image: url(images/p1.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  padding: 50px;
+  margin: 12px;
+}
+.des{
+  text-align:60px;
 }
 
-.des p {
-  color: #C5DCE5;
-}
-
-.cook p {
-  color: #C5DCE5;
+.cook img {
+margin: 12px;
 }
 
 
 #port{
   padding-left: 1px;
-  padding-top: 150px;
-  padding: 3px;
-  background-color:#000;
+  padding-top: 10px;
+  background-color:#fff;
   color: #000;
+  align-content: center;
 
     background-repeat: no-repeat;
     background-size: cover;
-  background-color:#C5DCE5;
+  background-color:#fff;
   padding: 70px;
+  min-height: 20px;
 }
 
 .portfolio-content {
@@ -127,12 +240,12 @@ margin: 12px;
 
 #port2{
   background-color:#000;
-  color: #000;
+  color: ##ffda10;
     display: flex;
     background-repeat: no-repeat;
     background-size: cover;
-  background-color:#C5DCE5;
-  padding: 70px;
+  background-color:#d;
+  padding: 1px;
 }
 
 .portfolio4{
@@ -147,28 +260,36 @@ margin: 12px;
 #contact{
   background-color:#000;
   color: #fff;
-  padding: 20px;
+  padding: 40px;
   padding-bottom: 20px;
 
 }
 
-.cont{
-
+#contact h1{
+  text-align: left;
+  color: #fff;
 }
-
 
 
 header {
 
-    background-image: url(images/image-header.jpg);
+    background-image: url(images/mot.jpg);
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
-    min-height: 80vh;
     display: flex;
+
     justify-content: left;
     font-size: 25pt;
-    color: #888F9B;
-    padding: 50px;
+    color:  #ffda10;
     align-items: center;
+    background-color: #fff;
+  }
+
+
+
+
+h1 {
+
+margin-top: -8px;
 }
